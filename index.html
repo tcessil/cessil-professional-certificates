@@ -1,643 +1,368 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#11213d" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cessil Tribblet | Project Coordinator &amp; Operations Professional</title>
     <meta
       name="description"
-      content="Verified professional certificates earned by Cessil Tribblet through Coursera."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Professional Certificates | Cessil Tribblet" />
+      content="Cessil Tribblet is a U.S. Navy veteran and project coordination professional with experience leading teams, coordinating complex operations, and improving processes."
+    >
+    <meta name="theme-color" content="#11213d">
+    <link rel="canonical" href="https://tcessil.github.io/cessil-professional-certificates/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cessil Tribblet | Project Coordinator &amp; Operations Professional">
     <meta
       property="og:description"
-      content="A focused collection of credentials in project management, Agile delivery, process improvement, and software engineering."
-    />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Professional Certificates | Cessil Tribblet" />
+      content="U.S. Navy veteran bringing disciplined project coordination, operations leadership, and process improvement experience."
+    >
+    <meta property="og:url" content="https://tcessil.github.io/cessil-professional-certificates/">
     <meta
-      name="twitter:description"
-      content="Verified professional certificates earned by Cessil Tribblet through Coursera."
-    />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <title>Professional Certificates | Cessil Tribblet</title>
-    <style>
-      :root {
-        --ink: #11213d;
-        --muted: #61708a;
-        --blue: #1f5eff;
-        --blue-deep: #1748c8;
-        --paper: #f4f7fb;
-        --card: #ffffff;
-        --line: #dce4ef;
-        --soft-blue: #eaf0ff;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        margin: 0;
-        background: var(--paper);
-        color: var(--ink);
-        font-family: Arial, Helvetica, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .skip-link {
-        position: fixed;
-        z-index: 10;
-        top: 12px;
-        left: 12px;
-        padding: 10px 14px;
-        border-radius: 4px;
-        background: var(--ink);
-        color: #fff;
-        font-size: 14px;
-        font-weight: 700;
-        transform: translateY(-160%);
-        transition: transform 160ms ease;
-      }
-
-      .skip-link:focus {
-        transform: translateY(0);
-      }
-
-      main {
-        min-height: 100vh;
-        background:
-          radial-gradient(circle at 89% 3%, rgba(31, 94, 255, 0.1), transparent 25rem),
-          linear-gradient(180deg, #fbfcff 0%, var(--paper) 38%, var(--paper) 100%);
-      }
-
-      .page-shell {
-        width: min(1120px, calc(100% - 40px));
-        margin: 0 auto;
-      }
-
-      .site-header {
-        min-height: 92px;
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        border-bottom: 1px solid rgba(17, 33, 61, 0.1);
-      }
-
-      .wordmark {
-        width: 42px;
-        height: 42px;
-        border-radius: 50%;
-        display: grid;
-        place-items: center;
-        background: var(--ink);
-        color: #fff;
-        font-size: 13px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-      }
-
-      .wordmark:focus-visible,
-      .card-action:focus-visible {
-        outline: 3px solid rgba(31, 94, 255, 0.3);
-        outline-offset: 4px;
-      }
-
-      .header-name {
-        font-size: 15px;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-      }
-
-      .hero {
-        max-width: 850px;
-        padding: 88px 0 84px;
-      }
-
-      .eyebrow {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 24px;
-        color: var(--blue-deep);
-        font-size: 13px;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-      }
-
-      .eyebrow-mark {
-        width: 24px;
-        height: 24px;
-        display: grid;
-        place-items: center;
-        border-radius: 50%;
-        background: var(--soft-blue);
-      }
-
-      .eyebrow-mark svg {
-        width: 15px;
-        height: 15px;
-      }
-
-      h1,
-      h2,
-      h3,
-      p {
-        margin-top: 0;
-      }
-
-      h1 {
-        max-width: 760px;
-        margin-bottom: 24px;
-        font-size: clamp(3.5rem, 8vw, 6.8rem);
-        line-height: 0.93;
-        letter-spacing: -0.065em;
-        font-weight: 760;
-      }
-
-      .hero-copy {
-        max-width: 670px;
-        margin-bottom: 30px;
-        color: var(--muted);
-        font-size: clamp(1.08rem, 2vw, 1.35rem);
-        line-height: 1.62;
-      }
-
-      .hero-meta {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        color: var(--ink);
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .credentials-section {
-        padding: 72px 0 96px;
-        border-top: 1px solid rgba(17, 33, 61, 0.12);
-      }
-
-      .section-heading {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        gap: 24px;
-        margin-bottom: 34px;
-      }
-
-      .section-heading h2 {
-        margin-bottom: 0;
-        font-size: clamp(2rem, 4vw, 3rem);
-        letter-spacing: -0.04em;
-      }
-
-      .section-heading p {
-        max-width: 380px;
-        margin-bottom: 3px;
-        color: var(--muted);
-        font-size: 15px;
-        line-height: 1.55;
-      }
-
-      .credential-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-      }
-
-      .credential-card {
-        min-height: 310px;
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid var(--line);
-        background: var(--card);
-        box-shadow: 0 16px 42px rgba(17, 33, 61, 0.05);
-        transition:
-          transform 180ms ease,
-          border-color 180ms ease,
-          box-shadow 180ms ease;
-      }
-
-      .credential-card:hover {
-        transform: translateY(-4px);
-        border-color: rgba(31, 94, 255, 0.55);
-        box-shadow: 0 22px 50px rgba(17, 33, 61, 0.1);
-      }
-
-      .card-topline {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 16px;
-      }
-
-      .credential-number {
-        color: var(--blue);
-        font-size: 13px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-      }
-
-      .credential-type {
-        color: var(--muted);
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        text-align: right;
-        text-transform: uppercase;
-      }
-
-      .card-content {
-        padding: 34px 0;
-      }
-
-      .issuer {
-        margin-bottom: 12px;
-        color: var(--blue-deep);
-        font-size: 13px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .credential-card h3 {
-        max-width: 430px;
-        margin-bottom: 0;
-        font-size: clamp(1.65rem, 3vw, 2.25rem);
-        line-height: 1.08;
-        letter-spacing: -0.045em;
-      }
-
-      .course-project {
-        margin-top: 24px;
-        padding: 20px 0 0 18px;
-        border-top: 1px solid var(--line);
-        border-left: 3px solid var(--blue);
-      }
-
-      .course-project .project-label {
-        margin-bottom: 8px;
-        color: var(--blue-deep);
-        font-size: 10px;
-        font-weight: 800;
-        letter-spacing: 0.13em;
-        text-transform: uppercase;
-      }
-
-      .course-project h4 {
-        margin: 0 0 8px;
-        font-size: 17px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-      }
-
-      .course-project p:last-child {
-        margin-bottom: 0;
-        color: var(--muted);
-        font-size: 13px;
-        line-height: 1.55;
-      }
-
-      .card-actions {
-        border-top: 1px solid var(--line);
-      }
-
-      .card-action {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 20px;
-        color: var(--muted);
-        font-size: 14px;
-        font-weight: 700;
-        transition: color 180ms ease;
-      }
-
-      .project-action {
-        margin-top: 18px;
-        padding-top: 18px;
-        border-top: 1px solid var(--line);
-        color: var(--blue-deep);
-      }
-
-      .card-action:hover,
-      .card-action:focus-visible {
-        color: var(--blue-deep);
-      }
-
-      .arrow-icon {
-        width: 21px;
-        height: 21px;
-        color: var(--blue);
-        transition: transform 180ms ease;
-      }
-
-      .card-action:hover .arrow-icon,
-      .card-action:focus-visible .arrow-icon {
-        transform: translate(2px, -2px);
-      }
-
-      footer {
-        min-height: 120px;
-        padding: 34px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        border-top: 1px solid rgba(17, 33, 61, 0.12);
-        color: var(--muted);
-        font-size: 13px;
-      }
-
-      footer p {
-        margin-bottom: 0;
-      }
-
-      @media (max-width: 720px) {
-        .page-shell {
-          width: min(100% - 28px, 1120px);
-        }
-
-        .site-header {
-          min-height: 78px;
-        }
-
-        .hero {
-          padding: 70px 0 64px;
-        }
-
-        h1 {
-          font-size: clamp(3rem, 16vw, 4.9rem);
-        }
-
-        .credentials-section {
-          padding: 56px 0 72px;
-        }
-
-        .section-heading,
-        footer {
-          align-items: flex-start;
-          flex-direction: column;
-        }
-
-        .credential-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .credential-card {
-          min-height: 280px;
-          padding: 24px;
-        }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          scroll-behavior: auto !important;
-          transition: none !important;
-        }
-      }
-    </style>
+      property="og:image"
+      content="https://tcessil.github.io/cessil-professional-certificates/assets/cessil-tribblet-social-card.png"
+    >
+    <meta name="twitter:card" content="summary_large_image">
   </head>
-  <body>
-    <a class="skip-link" href="#credentials">Skip to credentials</a>
-    <main>
-      <div class="page-shell">
-        <header class="site-header">
-          <a class="wordmark" href="#top" aria-label="Return to page top">CT</a>
-          <div class="header-name">Cessil Tribblet</div>
-        </header>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-        <section class="hero" id="top">
-          <div class="eyebrow">
-            <span class="eyebrow-mark" aria-hidden="true">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="m5 12 4 4L19 6"></path>
-              </svg>
-            </span>
-            Verified Coursera credentials
-          </div>
-          <h1>Professional Certificates</h1>
-          <p class="hero-copy">
-            A focused collection of credentials in project management, Agile delivery,
-            process improvement, and software engineering.
-          </p>
-          <div class="hero-meta" aria-label="Credential summary">
-            <span>4 credentials</span>
-            <span aria-hidden="true">•</span>
-            <span>Coursera</span>
-          </div>
-        </section>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#top" aria-label="Cessil Tribblet, home">
+          <span class="brand__mark" aria-hidden="true">CT</span>
+          <span class="brand__name">Cessil Tribblet</span>
+        </a>
 
-        <section class="credentials-section" id="credentials" aria-labelledby="credentials-heading">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#credentials">Credentials</a>
+          <a href="#honors">Honors</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Project coordination · Operations · U.S. Navy veteran</p>
+            <h1 id="hero-title">Project Coordinator &amp; Operations Professional</h1>
+            <p class="hero__lead">
+              I bring 6.5 years of experience leading personnel, coordinating complex
+              workflows, and delivering time-sensitive work in high-pressure environments.
+              My approach is grounded in clear documentation, accountable execution, and
+              steady cross-functional communication.
+            </p>
+            <div class="button-row">
+              <a class="button button--primary" href="resume.html">View résumé</a>
+              <a class="button button--secondary" href="#contact">Contact me</a>
+            </div>
+          </div>
+
+          <aside class="focus-card" aria-label="Professional focus">
+            <p class="focus-card__label">Professional focus</p>
+            <h2>Reliable coordination from plan to closeout.</h2>
+            <ul class="check-list">
+              <li>Project and workflow coordination</li>
+              <li>Documentation and compliance</li>
+              <li>Team and stakeholder communication</li>
+              <li>Process and quality improvement</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="container">
+          <dl class="proof-strip" aria-label="Career highlights">
+            <div>
+              <dt>6.5 years</dt>
+              <dd>U.S. Navy service</dd>
+            </div>
+            <div>
+              <dt>11 personnel</dt>
+              <dd>Largest team supervised</dd>
+            </div>
+            <div>
+              <dt>4 credentials</dt>
+              <dd>Verified professional programs</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="credentials" aria-labelledby="credentials-title">
+        <div class="container">
           <div class="section-heading">
-            <h2 id="credentials-heading">Credentials</h2>
-            <p>Select any credential to view its official verification page.</p>
+            <div>
+              <p class="eyebrow">Professional development</p>
+              <h2 id="credentials-title">Verified credentials</h2>
+            </div>
+            <p>
+              Applied learning across project management, Agile delivery, process
+              improvement, DevOps, and software delivery.
+            </p>
           </div>
 
-          <div class="credential-grid">
+          <div class="card-grid">
             <article class="credential-card">
-              <div class="card-topline">
-                <span class="credential-number">01</span>
-                <span class="credential-type">Professional Certificate</span>
+              <div class="card-meta">
+                <span class="provider-mark provider-mark--google" aria-hidden="true">G</span>
+                <div>
+                  <p class="card-kicker">Google · Coursera</p>
+                  <p class="card-date">Completed November 2024</p>
+                </div>
               </div>
-              <div class="card-content">
-                <p class="issuer">Google</p>
-                <h3>Google Project Management</h3>
-              </div>
+              <h3>Google Project Management</h3>
+              <p>
+                Six-course professional certificate covering project initiation, planning,
+                execution, Agile delivery, and a real-world capstone. Built practical skill in
+                creating project artifacts, managing scope, and communicating with stakeholders.
+              </p>
+              <ul class="skill-list" aria-label="Google Project Management skills">
+                <li>Project planning</li>
+                <li>Agile</li>
+                <li>Stakeholder communication</li>
+                <li>Scope management</li>
+                <li>Quality assurance</li>
+              </ul>
               <div class="card-actions">
                 <a
-                  class="card-action"
+                  class="button button--small button--primary"
                   href="https://coursera.org/share/e9aaa9e105912c2ad9696f00c17c9cfe"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="View Google Project Management credential on Coursera"
-                >
-                  <span>View credential</span>
-                  <svg
-                    aria-hidden="true"
-                    class="arrow-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M7 17 17 7"></path>
-                    <path d="M7 7h10v10"></path>
-                  </svg>
-                </a>
+                >View verified credential <span aria-hidden="true">↗</span></a>
               </div>
             </article>
 
             <article class="credential-card">
-              <div class="card-topline">
-                <span class="credential-number">02</span>
-                <span class="credential-type">Professional Certificate</span>
-              </div>
-              <div class="card-content">
-                <p class="issuer">IBM</p>
-                <h3>IBM IT Scrum Master</h3>
-                <div class="course-project">
-                  <p class="project-label">Coursera course project</p>
-                  <h4>Agile Project Coordinator</h4>
-                  <p>
-                    Course project simulating an e-commerce platform. Served as Product Owner and
-                    Scrum Master while managing the backlog, user stories, and Kanban workflow.
-                  </p>
+              <div class="card-meta">
+                <span class="provider-mark provider-mark--ibm" aria-hidden="true">IBM</span>
+                <div>
+                  <p class="card-kicker">IBM · Coursera</p>
+                  <p class="card-date">Completed December 2024</p>
                 </div>
               </div>
+              <h3>IBM IT Scrum Master</h3>
+              <p>
+                Six-course specialization spanning Scrum leadership, IT fundamentals, Agile
+                delivery, a capstone, and certification preparation. Applied the framework by
+                organizing an e-commerce project backlog, user stories, and Kanban workflow.
+              </p>
+              <ul class="skill-list" aria-label="IBM IT Scrum Master skills">
+                <li>Scrum</li>
+                <li>Agile delivery</li>
+                <li>Backlog management</li>
+                <li>Risk management</li>
+                <li>Kanban</li>
+              </ul>
               <div class="card-actions">
                 <a
-                  class="card-action"
+                  class="button button--small button--primary"
                   href="https://coursera.org/share/348c59db817563649cbb80da0dcefb44"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="View IBM IT Scrum Master credential on Coursera"
-                >
-                  <span>View credential</span>
-                  <svg
-                    aria-hidden="true"
-                    class="arrow-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M7 17 17 7"></path>
-                    <path d="M7 7h10v10"></path>
-                  </svg>
-                </a>
+                >View verified credential <span aria-hidden="true">↗</span></a>
                 <a
-                  class="card-action project-action"
+                  class="button button--small button--text"
                   href="https://github.com/users/tcessil/projects/3/views/1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="View Agile Project Coordinator project on GitHub"
-                >
-                  <span>View project</span>
-                  <svg
-                    aria-hidden="true"
-                    class="arrow-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M7 17 17 7"></path>
-                    <path d="M7 7h10v10"></path>
-                  </svg>
-                </a>
+                >View Agile project <span aria-hidden="true">↗</span></a>
               </div>
             </article>
 
             <article class="credential-card">
-              <div class="card-topline">
-                <span class="credential-number">03</span>
-                <span class="credential-type">Specialization</span>
+              <div class="card-meta">
+                <span class="provider-mark provider-mark--ksu" aria-hidden="true">KSU</span>
+                <div>
+                  <p class="card-kicker">Kennesaw State University · Coursera</p>
+                  <p class="card-date">Completed November 2024</p>
+                </div>
               </div>
-              <div class="card-content">
-                <p class="issuer">Kennesaw State University</p>
-                <h3>Six Sigma Yellow Belt</h3>
-              </div>
+              <h3>Six Sigma Yellow Belt</h3>
+              <p>
+                Four-course specialization covering Six Sigma principles and the
+                Define–Measure–Analyze–Improve–Control cycle. Developed a structured foundation
+                in data-informed process analysis, quality, and continuous improvement.
+              </p>
+              <ul class="skill-list" aria-label="Six Sigma Yellow Belt skills">
+                <li>Six Sigma</li>
+                <li>Process analysis</li>
+                <li>Lean methods</li>
+                <li>Data collection</li>
+                <li>Quality improvement</li>
+              </ul>
               <div class="card-actions">
                 <a
-                  class="card-action"
+                  class="button button--small button--primary"
                   href="https://coursera.org/share/83929f56cca2e607da78c33dd0ff02c2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="View Six Sigma Yellow Belt credential on Coursera"
-                >
-                  <span>View credential</span>
-                  <svg
-                    aria-hidden="true"
-                    class="arrow-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M7 17 17 7"></path>
-                    <path d="M7 7h10v10"></path>
-                  </svg>
-                </a>
+                >View verified credential <span aria-hidden="true">↗</span></a>
               </div>
             </article>
 
             <article class="credential-card">
-              <div class="card-topline">
-                <span class="credential-number">04</span>
-                <span class="credential-type">Professional Certificate</span>
+              <div class="card-meta">
+                <span class="provider-mark provider-mark--ibm" aria-hidden="true">IBM</span>
+                <div>
+                  <p class="card-kicker">IBM · Coursera</p>
+                  <p class="card-date">Completed January 2025</p>
+                </div>
               </div>
-              <div class="card-content">
-                <p class="issuer">IBM</p>
-                <h3>IBM DevOps and Software Engineering</h3>
-              </div>
+              <h3>IBM DevOps and Software Engineering</h3>
+              <p>
+                Professional certificate covering Agile development, test-driven practices,
+                CI/CD, application security, monitoring, and a capstone. Built working knowledge
+                of the tools and lifecycle behind modern software delivery.
+              </p>
+              <ul class="skill-list" aria-label="IBM DevOps and Software Engineering skills">
+                <li>DevOps</li>
+                <li>CI/CD</li>
+                <li>Cloud infrastructure</li>
+                <li>Automation</li>
+                <li>Monitoring</li>
+                <li>Software delivery lifecycle</li>
+              </ul>
               <div class="card-actions">
                 <a
-                  class="card-action"
+                  class="button button--small button--primary"
                   href="https://coursera.org/share/6cea06aace1ed1cd65e06bc92f96dcbf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="View IBM DevOps and Software Engineering credential on Coursera"
-                >
-                  <span>View credential</span>
-                  <svg
-                    aria-hidden="true"
-                    class="arrow-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M7 17 17 7"></path>
-                    <path d="M7 7h10v10"></path>
-                  </svg>
+                >View verified credential <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tinted" id="honors" aria-labelledby="honors-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Documented recognition</p>
+              <h2 id="honors-title">Awards, honors &amp; qualifications</h2>
+            </div>
+            <p>
+              Public verification copies omit private identifiers, email addresses, signatures,
+              and third-party contact information.
+            </p>
+          </div>
+
+          <div class="honors-grid">
+            <article class="honor-card">
+              <div class="honor-card__icon" aria-hidden="true">DL</div>
+              <p class="card-kicker">Academic honor</p>
+              <h3>Dean’s List</h3>
+              <p class="honor-card__source">San Diego City College · AY 2024–25 and 2025–26</p>
+              <p>
+                Recognized across two academic years for strong scholastic achievement:
+                4.00 GPA in 2024–25 and a revised 3.82 GPA in 2025–26.
+              </p>
+              <div class="document-links" aria-label="Dean's List verification documents">
+                <a href="documents/deans-list-2024-2025.pdf" target="_blank" rel="noopener">
+                  View AY 2024–25 PDF <span aria-hidden="true">↗</span>
+                </a>
+                <a href="documents/deans-list-2025-2026.pdf" target="_blank" rel="noopener">
+                  View AY 2025–26 PDF <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="honor-card">
+              <div class="honor-card__icon" aria-hidden="true">EA</div>
+              <p class="card-kicker">Warfare qualification</p>
+              <h3>Enlisted Aviation Warfare Specialist</h3>
+              <p class="honor-card__source">U.S. Navy · May 29, 2020</p>
+              <p>
+                Earned the EAWS designation aboard USS John C. Stennis after completing the
+                required professional knowledge and qualification standards.
+              </p>
+              <div class="document-links">
+                <a href="documents/eaws-qualification-2020.pdf" target="_blank" rel="noopener">
+                  View verification PDF <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="honor-card">
+              <div class="honor-card__icon" aria-hidden="true">SD</div>
+              <p class="card-kicker">Command recognition</p>
+              <h3>Sailor of the Day</h3>
+              <p class="honor-card__source">USS John C. Stennis (CVN 74) · May 4, 2019</p>
+              <p>
+                Selected for command recognition while serving aboard USS John C. Stennis,
+                reflecting strong performance, professionalism, and contribution to the mission.
+              </p>
+              <div class="document-links">
+                <a href="documents/sailor-of-the-day-2019.pdf" target="_blank" rel="noopener">
+                  View verification PDF <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="honor-card">
+              <div class="honor-card__icon" aria-hidden="true">SF</div>
+              <p class="card-kicker">Readiness evaluation</p>
+              <h3>Special Forces Readiness Evaluation</h3>
+              <p class="honor-card__source">Company C, 1st Battalion, 19th SFG(A) · March 9–12, 2023</p>
+              <p>
+                Completed the four-day SFRE at Camp Parks, California. This entry documents
+                completion of the evaluation and does not represent a Special Forces qualification.
+              </p>
+              <div class="document-links">
+                <a href="documents/sfre-completion-2023.pdf" target="_blank" rel="noopener">
+                  View verification PDF <span aria-hidden="true">↗</span>
                 </a>
               </div>
             </article>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <footer>
-          <p>Credentials earned by Cessil Tribblet</p>
-          <p>Verification provided by Coursera</p>
-        </footer>
-      </div>
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-card">
+            <div>
+              <p class="eyebrow">Let’s connect</p>
+              <h2 id="contact-title">Bring disciplined coordination to your team.</h2>
+              <p>
+                I’m interested in project coordination, operations, PMO support, and process
+                improvement opportunities in the San Diego area.
+              </p>
+            </div>
+            <div class="contact-card__actions">
+              <a class="button button--primary button--light" href="mailto:LTCessil@pm.me">
+                Email Cessil
+              </a>
+              <a
+                class="button button--secondary button--on-dark"
+                href="https://github.com/tcessil"
+                target="_blank"
+                rel="noopener noreferrer"
+              >View GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <p class="site-footer__name">Cessil Tribblet</p>
+          <p>Project coordination · Operations · Process improvement</p>
+        </div>
+        <div class="site-footer__links">
+          <a href="resume.html">Résumé</a>
+          <a href="mailto:LTCessil@pm.me">LTCessil@pm.me</a>
+          <span>San Diego, California</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
