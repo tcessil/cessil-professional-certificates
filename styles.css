@@ -348,39 +348,6 @@ h3 {
   content: "✓";
 }
 
-.proof-strip {
-  display: grid;
-  margin: clamp(3.5rem, 7vw, 6rem) 0 0;
-  padding: 1.45rem clamp(1.2rem, 3vw, 2rem);
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md) var(--radius-md) 0 0;
-  background: rgba(255, 255, 255, 0.8);
-}
-
-.proof-strip div {
-  min-width: 0;
-  padding-inline: clamp(0rem, 2vw, 1.25rem);
-}
-
-.proof-strip div + div {
-  border-left: 1px solid var(--line);
-}
-
-.proof-strip dt {
-  color: var(--ink);
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
-  font-weight: 850;
-  line-height: 1.25;
-}
-
-.proof-strip dd {
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-}
-
 .section {
   padding: clamp(5rem, 9vw, 8rem) 0;
 }
@@ -396,6 +363,10 @@ h3 {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.65fr);
   align-items: end;
   gap: 2rem;
+}
+
+.section-heading--single {
+  grid-template-columns: 1fr;
 }
 
 .section-heading h2 {
@@ -550,6 +521,29 @@ h3 {
   color: var(--muted) !important;
   font-size: 0.88rem;
   font-weight: 700;
+}
+
+.qualification-process {
+  margin: 1rem 0 1.2rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--blue);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--ink-soft);
+  background: var(--soft-blue);
+  font-size: 0.9rem;
+}
+
+.qualification-process p {
+  margin: 0;
+}
+
+.qualification-process__title {
+  margin-bottom: 0.4rem !important;
+  color: var(--ink) !important;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .document-links {
@@ -873,7 +867,6 @@ h3 {
 
 .hero__copy,
 .focus-card,
-.proof-strip,
 .card-grid,
 .honors-grid {
   animation: rise-in 520ms ease both;
@@ -957,22 +950,6 @@ h3 {
 
   .hero__lead {
     font-size: 1.02rem;
-  }
-
-  .proof-strip {
-    margin-top: 3.25rem;
-    padding: 1.2rem;
-    grid-template-columns: 1fr;
-  }
-
-  .proof-strip div {
-    padding: 0;
-  }
-
-  .proof-strip div + div {
-    padding-top: 1rem;
-    border-top: 1px solid var(--line);
-    border-left: 0;
   }
 
   .section {
